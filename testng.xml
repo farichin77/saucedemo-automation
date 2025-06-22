@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Test Suite" parallel="tests" thread-count="1">
+    
+    <!-- Positive Tests Suite -->
+    <test name="Positive Tests" preserve-order="true">
+        <classes>
+            <class name="tests.PositiveTestsNG">
+                <methods>
+                    <include name="testBasicFlow"/>
+                    <include name="testAllUserTypes"/>
+                    <include name="testSingleProductOrder"/>
+                    <include name="testDifferentCheckoutData"/>
+                    <include name="testLogoutAfterOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Negative Tests Suite -->
+    <test name="Negative Tests" preserve-order="true">
+        <classes>
+            <class name="tests.NegativeTestsNG">
+                <methods>
+                    <include name="testInvalidUsername"/>
+                    <include name="testInvalidPassword"/>
+                    <include name="testLockedOutUser"/>
+                    <include name="testEmptyFields"/>
+                    <include name="testProblemUser"/>
+                    <include name="testPerformanceGlitchUser"/>
+                    <include name="testEmptyUsername"/>
+                    <include name="testEmptyPassword"/>
+                    <include name="testSpecialCharacters"/>
+                    <include name="testWhitespaceOnly"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite> 
