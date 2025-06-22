@@ -1,3 +1,11 @@
+# 🚀 SauceDemo Selenium Automation Framework
+
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://selenium.dev/)
+[![TestNG](https://img.shields.io/badge/TestNG-FF6B6B?style=for-the-badge&logo=testng&logoColor=white)](https://testng.org/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+[![Allure](https://img.shields.io/badge/Allure-FF6B6B?style=for-the-badge&logo=allure&logoColor=white)](https://allure.qameta.io/)
+
 # SauceDemo Automation Testing Project
 
 ##  Project Overview
